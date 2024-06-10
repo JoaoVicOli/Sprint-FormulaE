@@ -174,6 +174,12 @@ main{
     height: 300px;
     width: 500px;
 }
+
+.container_main_img_1{
+    height: 400px;
+    width: 400px;
+}
+
 /* Footer */
 
 footer {
@@ -297,8 +303,13 @@ input {
     border: 1px solid var(--color-padrao3);
     border-radius: 5px;
     background-color: var(--color-padrao3);
+    max-height: 180px;
 }
-
+.carro_img{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
 .footer_login input[type="text"],
 .footer_login input[type="password"] {
     width: 140px;
@@ -312,7 +323,7 @@ input {
 }
 
 .footer_login button {
-    padding: 8px 12px;
+    padding: 6px 10px;
     border: none;
     border-radius: 4px;
     background-color: var(--color-padrao1);
