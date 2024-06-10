@@ -11,44 +11,55 @@
     <header>
         <section class="container">
             <div class="container_texto">
-                <img class="header-img" src="./assets/img/planet-earth_295629.png" alt="">
                 <h1 class="texto_principal">Formula-E</h1>
-                <a href="https://br.freepik.com/search"></a>
+                <img src="./assets/img/carro-eletrico (1).png" alt="" class="header_img">
             </div>
             <div class="container_navegacao">
                 <nav class="navegacao">
-                    <a href="forum.html">Fórum</a>
-                    <a href="quiz.html">Quiz</a>
+                    <a href="secao1.html" class="botao_navegacao">
+                        Seção 1
+                    </a>
+                    <a href="secao2.html" class="botao_navegacao">
+                        Seção 2
+                    </a>
+                    <a href="secao3.html" class="botao_navegacao">
+                        Seção 3
+                    </a>
                 </nav>
             </div>
         </section>
     </header>
-    <main> 
-        <h1>Formula-E</h1>
-        <p>A Fórmula E é uma categoria de automobilismo dedicada a carros de corrida totalmente elétricos. Criada pela Fédération Internationale de l'Automobile (FIA), a mesma organização que gerencia a Fórmula 1, a Fórmula E foi lançada em 2014 com o objetivo de promover a sustentabilidade e a inovação tecnológica no automobilismo.</p>
+    <main>
+        <section class ="container_main">
+            <div class="main_conteudo"> 
+                <h1>Formula-E</h1>
+                <p>A Fórmula E é uma categoria de automobilismo dedicada a carros de corrida totalmente elétricos. Criada pela Fédération Internationale de l'Automobile (FIA), a mesma organização que gerencia a Fórmula 1, a Fórmula E foi lançada em 2014 com o objetivo de promover a sustentabilidade e a inovação tecnológica no automobilismo.</p>
+                <img class="main-img" id="imgbanner" alt="Slideshow Image">
+            </div>
+        </section>
     </main>
     <footer>
         <section class="footer_container">
-           
             <div class="footer_content">
                 <h3>Desenvolvedores</h3>
                 <ul>
-                    <li><a href = "https://github.com/JoaoVicOli" target="_blank" class="footer-section-sobre">João Oliveira</a></li>
-                    <li><a href = "https://github.com/eerricc" target="_blank" class="footer-section-sobre">Eric Segawa</a></li>
-                    <li><a href=""></a></li>
-                </ul>           
-            </div>
-            <div class="footer-content">               
-                <h3>Contato</h3>
-                <div class="footer_text">
-                <p>contato@empresa.com</p>
-                <p>Telefone: (11) 1234-5678</p>
-                </div>                
+                    <li><a href="https://github.com/JoaoVicOli" target="_blank" class="footer-section-sobre">João Oliveira</a></li>
+                    <li><a href="https://github.com/eerricc" target="_blank" class="footer-section-sobre">Eric Segawa</a></li>
+                    <li><a href="https://github.com/GabrielNakashima" target="_blank" class="footer-section-sobre">Gabriel Nakashima</a></li>
+                    <li><a href="https://github.com/GLacerda1" target="_blank" class="footer-section-sobre">Gabriel Lacerda</a></li>
+                </ul>
             </div>
             <div class="footer_content">
-                <h3>Redes <strong class="footer_content_strong"> sociais </strong></h3>
+                <h3>Contato</h3>
+                <div class="footer_text">
+                    <p>contato@empresa.com</p>
+                    <p>Telefone: (11) 1234-5678</p>
+                </div>
+            </div>
+            <div class="footer_content">
+                <h3>Redes sociais </h3>
                 <ul class="social_icons">
-                    <li class="social_icons_li">  
+                    <li class="social_icons_li">
                         <a href="#"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#"><i class="fab fa-whatsapp"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
@@ -58,15 +69,23 @@
             <div class="footer_content">
                 <h3>Navegação</h3>
                 <ul class="footer_list">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
                     <li><a href="#">Serviços</a></li>
                     <li><a href="#">Sobre</a></li>
                     <li><a href="#">Contato</a></li>
                 </ul>
             </div>
+            <div class="footer_login">
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <input type="text" id="usuario" placeholder="Usuário" required>
+                    <input type="password" id="senha" placeholder="Senha" required>
+                    <button type="submit" class="btnlogin">Login</button>
+                </form>
+            </div>
         </section>
         <div class="footer_bottom">
-            <p class="copyright">&copy; 2024 Empresa GlobalS. Todos os direitos reservados.</p>
+            <p class="copyright">&copy; 2024 Empresa Fimtech. Todos os direitos reservados.</p>
         </div>
     </footer>
     <script src="./assets/js/script.js"></script>

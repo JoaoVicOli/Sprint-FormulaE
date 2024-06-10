@@ -18,18 +18,18 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     }
 });
 
-let imagens1 = ["./assets/img/acidflask.png", "./assets/img/thermometer.png", "./assets/img/pollution_7925306.png"];
-let index1 = 0;
-let time1 = 2000;
+let imagens = ["./assets/img/slideshow1.png", "./assets/img/slideshow2.png", "./assets/img/slideshow3.png"];
+let index = 0;
+let time = 2000;
 
-function slideShow1() {
-    document.getElementById("imgbanner1").src = imagens1[index1];
-    index1++;
+function slideShow() {
+    document.getElementById("imgbanner").src = imagens[index];
+    index++;
     
-    if (index1 === imagens1.length) {
-        index1 = 0;
+    if (index === imagens.length) {
+        index = 0;
     }
-    setTimeout(slideShow1, time1);
+    setTimeout(slideShow, time);
 }
 
-slideShow1();
+slideShow();
