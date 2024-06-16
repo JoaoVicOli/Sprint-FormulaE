@@ -1,7 +1,8 @@
 # **Sprint-1 Mahindra**
 
->a
->b
+>O projeto desenvolvido no Wokwi com o tema da Fórmula E integra tecnologia e eletrônica para criar uma experiência interativa e informativa. Utilizando componentes como display LCD, sensor DHT (de temperatura e umidade), sensor LDR (de luz), LEDs e buzzers, o trabalho visa simular e monitorar condições ambientais e operacionais semelhantes às encontradas em corridas de carros elétricos de alto desempenho.
+
+>Este repositório contém um exemplo simples em Python para geração aleatória de dados fictícios de pilotos da Fórmula E e visualização desses dados utilizando gráficos de barras. O objetivo é demonstrar como Python pode ser utilizado para manipular dados, criar   visualizações e integrar conceitos como estruturas de dados, controle de fluxo e bibliotecas gráficas.
 
 ## 📋 Pré-requisitos
 + Ter o arduino IDE instalado em sua máquina, para rodar os códigos da placa.
@@ -16,7 +17,7 @@
   - 1x Buzzer
 
 ## 📡 🔍 Instalação
-Segue exemplo de montagem e codigo do projeto : <link>
+Segue exemplo de montagem e codigo do projeto : <[link simulação wokwi](https://wokwi.com/projects/400767444116978689)>
 
 
 ## 🛠️ Construído com
