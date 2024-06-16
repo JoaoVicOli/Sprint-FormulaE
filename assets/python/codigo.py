@@ -7,12 +7,14 @@
 import random
 import matplotlib.pyplot as plt
 
-# Função para gerar dados aleatórios
+# Função para gerar dados aleatórios com 3 pilotos
 def gerar_dados():
+    pilotos = ['Piloto A', 'Piloto B', 'Piloto C']  
+    
     dados = []
-    for _ in range(10):  # Gerar 10 pontos de dados
-        piloto = random.choice(['Piloto A', 'Piloto B', 'Piloto C'])
-        tempo_volta = round(random.uniform(55, 65), 2)  # Tempo de volta aleatório entre 55 e 65 segundos
+    for piloto in pilotos:
+        # Tempo de volta aleatório entre 55 e 65 segundos
+        tempo_volta = round(random.uniform(55, 65), 2)  
         dados.append((piloto, tempo_volta))
     return dados
 
@@ -33,9 +35,8 @@ def main():
     dados = gerar_dados()
     
     # Mostrar os dados gerados
-    print("Dados gerados:")
     for piloto, tempo in dados:
-        print(f"Piloto: {piloto}, Tempo de Volta: {tempo} s")
+        print(f"{piloto} - Tempo de Volta: {tempo}s")
     
     # Plotar gráfico de barras
     plotar_grafico(dados)
