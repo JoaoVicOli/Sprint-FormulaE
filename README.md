@@ -1,8 +1,10 @@
 # **Sprint-1 Mahindra**
 
+>Bem-vindo ao nosso site inovador dedicado à Fórmula E, a categoria de corrida revolucionária que combina velocidade, tecnologia de ponta e sustentabilidade ambiental. Aqui, mergulhe no emocionante mundo da Fórmula E através de uma experiência interativa que une elementos de HTML, CSS, JavaScript, futuramente planejamos implementar também um jogo exclusivo para maior interação com a comunidade.
+
 >O projeto desenvolvido no Wokwi com o tema da Fórmula E integra tecnologia e eletrônica para criar uma experiência interativa e informativa. Utilizando componentes como display LCD, sensor DHT (de temperatura e umidade), sensor LDR (de luz), LEDs e buzzers, o trabalho visa simular e monitorar condições ambientais e operacionais semelhantes às encontradas em corridas de carros elétricos de alto desempenho.
 
->Este repositório contém um exemplo simples em Python para geração aleatória de dados fictícios de pilotos da Fórmula E e visualização desses dados utilizando gráficos de barras. O objetivo é demonstrar como Python pode ser utilizado para manipular dados, criar   visualizações e integrar conceitos como estruturas de dados, controle de fluxo e bibliotecas gráficas.
+>Este repositório também contém um exemplo simples em Python para geração aleatória de dados fictícios de pilotos da Fórmula E e visualização desses dados utilizando gráficos de barras. O objetivo é demonstrar como Python pode ser utilizado para manipular dados, criar   visualizações e integrar conceitos como estruturas de dados, controle de fluxo e bibliotecas gráficas.
 
 ## 📋 Pré-requisitos
 + Ter o arduino IDE instalado em sua máquina, para rodar os códigos da placa.
