@@ -336,3 +336,16 @@ input {
 .footer_login button:hover {
     background-color: var(--color-padrao5);
 }
+
+#dropdownContainer {
+    display: none;
+}
+
+.fade-out {
+    animation: fadeOut 1s forwards;
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
