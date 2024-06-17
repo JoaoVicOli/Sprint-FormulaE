@@ -33,7 +33,7 @@ Segue exemplo de montagem e codigo do projeto : <[link simulação wokwi](https:
 + João Victor Oliveira dos Santos RM557948
 + Gabriel Luni Nakashima RM558096
 + Gabriel Lacerda Araujo RM558307
-+ Melyssa Huang 558401
++ Melyssa Huang RM558401
 
 ## Git Page
 + <link>
