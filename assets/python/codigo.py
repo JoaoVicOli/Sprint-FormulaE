@@ -34,9 +34,14 @@ def plotar_grafico(dados):
 def main():
     dados = gerar_dados()
     
-    # Mostrar os dados gerados
+    # Mostrar os dados gerados com condições
     for piloto, tempo in dados:
-        print(f"{piloto} - Tempo de Volta: {tempo}s")
+        if tempo < 57:
+            print(f"{piloto} - Tempo de Volta: {tempo}s - Excelente")
+        elif 57 <= tempo < 60:
+            print(f"{piloto} - Tempo de Volta: {tempo}s - Bom")
+        else:
+            print(f"{piloto} - Tempo de Volta: {tempo}s - Precisa melhorar")
     
     # Plotar gráfico de barras
     plotar_grafico(dados)
