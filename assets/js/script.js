@@ -4,7 +4,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const usuario = document.getElementById('usuario').value;
     const senha = document.getElementById('senha').value;
     
-    if (usuario === "solution" && senha === "12345"){
+    if (usuario === "sprint" && senha === "12345"){
         alert('Sucesso liberando seções');
         document.getElementById('dropdownContainer').style.display = 'flex'; 
         document.querySelector('.header-login').addEventListener('submit', function(){
